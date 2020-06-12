@@ -34,6 +34,7 @@ const LandingBio = () => (
           siteMetadata {
             title
             subtitle
+            description
           }
         }
       }
@@ -43,6 +44,7 @@ const LandingBio = () => (
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
+          <AddDescription>{data.site.siteMetadata.description}</AddDescription>
         </Container>
       </OuterContainer>
     )}
@@ -52,11 +54,13 @@ const LandingBio = () => (
 NameHeader.propTypes = {
   siteTitle: PropTypes.string,
   subtitle: PropTypes.string,
+  description: PropTypes.string,
 }
 
 NameHeader.defaultProps = {
   siteTitle: ``,
   subtitle: ``,
+  description: ``,
 }
 
 export default LandingBio
