@@ -66,7 +66,7 @@ const HomeLink = styled(NavLink)`
 `
 
 const AboutLink = styled(NavLink)`
-  margin-left: 0;
+  margin-left: 15px;
 `
 
 const SiteHeader = styled.header`
