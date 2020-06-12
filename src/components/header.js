@@ -65,6 +65,10 @@ const HomeLink = styled(NavLink)`
   margin-left: 0;
 `
 
+const AboutLink = styled(NavLink)`
+  margin-left: 0;
+`
+
 const SiteHeader = styled.header`
   background: transparent;
   display: flex;
@@ -78,6 +82,7 @@ const Header = ({ siteTitle }) => (
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
         <NavLink to="/blog">Blog</NavLink>
+        <AboutLink to="/about">About</NavLink>
         <GitHubLink href="https://github.com/himanshugoel21">
           GitHub
         </GitHubLink>
