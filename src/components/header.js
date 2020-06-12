@@ -82,7 +82,7 @@ const Header = ({ siteTitle }) => (
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
         <NavLink to="/blog">Blog</NavLink>
-        <AboutLink to="/about">About<NavLink />
+        <AboutLink to="/about">About</AboutLink>
         <GitHubLink href="https://github.com/himanshugoel21">
           GitHub
         </GitHubLink>
