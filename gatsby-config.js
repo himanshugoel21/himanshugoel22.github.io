@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `👋Himanshu Goel`,
     subtitle: `Blog on Productivity🚀, Information Security🔏, Meditation🧘‍♂️, Books📚 and Fitness🏃‍♂️`,
-    description: `A minimal blog starter built with Gatsbyjs. The needed Gatsby files are included.`,
+    description: `Checkout the Blog section above to read about my learnings on #Productivity, #BookNotes, #InfoSec, #Meditation, and #Fitness. 
+    Through this medium I want to share what all I have learnt over the years. Namestay🙏`,
     author: `@himanshugoel21`,
   },
   plugins: [
